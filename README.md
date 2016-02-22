@@ -34,7 +34,8 @@ Standups at 09:30 and 14:30 as usual
 * [Michael's Hello Node tutorial](http://www.michaellennox.me/devramble/2016/01/13/hello-node.html)
 * [Michael's project setup tut](http://www.michaellennox.me/devramble/2016/01/19/CRUD-app-node-express-gen.html)
 * [Nodeschool](http://nodeschool.io/)
- 
+* [Ebooks](https://it-ebooks.info/tag/node.js/)
+
 ### API resources
 * [Pluralsight Node API tut](https://www.pluralsight.com/courses/play-by-play-node-web-api-john-papa-sam-artioli)
 * [Mashape 40 API tuts](http://blog.mashape.com/list-of-40-tutorials-on-how-to-create-an-api/)
