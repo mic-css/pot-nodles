@@ -16,26 +16,34 @@ You can deploy though git, just as we did with our Ruby apps.
       ```$ npm init```
   * It will ask you to fill in the below information for your project:
       (*note: hit 'Enter' to accept default for some options like version etc*)
-      ```
-        $ name: (name of the project)
-        $ version: (it normally shows this after version, eg. 0.0.1)
-        $ description: (describe what the project does)
-        $ entry point: (file path to package, eg. ./app.js)
-        $ test command: (eg. 'mocha' if you are using mocha for your tests)
-        $ git repository: (link to the project on github)
-        $ key words: (allow users to search for the project by keyword)
-        $ author: (name)
-        $ license: (somthing like 'MIT' - the license used for Ruby. It lets the user know what they can use the project for)
-        ```
+      
+       ``` $ name: (name of the project)```
+
+       ``` $ version: (it normally shows this after version, eg. 0.0.1)```
+       
+       ```$ description: (describe what the project does)```
+       
+       ``` $ entry point: (file path to package, eg. ./app.js)```
+       
+       ``` $ test command: (eg. 'mocha' if you are using mocha for your tests)```
+       
+       ``` $ git repository: (link to the project on github)```
+       
+       ``` $ key words: (allow users to search for the project by keyword)```
+       
+       ``` $ author: (name)```
+       
+       ``` $ license: (somthing like 'MIT' - the license used for Ruby. It lets the user know what they can use the project for)```
+      
   * The **package.jason file** will be created and automatically list any dependancies (modules/packages) used in your     project
     *(note: You can automatically add to the list in your package.jason file when you install additional packages from npm by
      adding the **flag --save**, eg. ```$npm install colors --save```)
 * Open the **package.jason file** that should have been created in your project file. Add the below lines:
-```    
-"engines": {
-      "node": "4.2.4"
-    }
-```
+  ```    
+  "engines": {
+        "node": "4.2.4"
+      }
+  ```
 * Create a new file in the main directory called **"Procfile"** *(like Gemfiles this starts with a capital letter and has no extension)*, you need to list at least one process in here, ```eg: $ web:node app.js```
 
 * Git add, commit and push your changes, check you are logged into Heroku (note: you can look at extra Heroku commands once logged in by typing: heroku help)
