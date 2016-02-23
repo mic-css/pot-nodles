@@ -38,7 +38,7 @@ You can deploy though git, just as we did with our Ruby apps.
   * The **package.jason file** will be created and automatically list any dependancies (modules/packages) used in your     project
     *(note: You can automatically add to the list in your package.jason file when you install additional packages from npm by
      adding the **flag --save**, eg. ```$npm install colors --save```)
-* Open the **package.jason file** that should have been created in your project file. Add the below lines:
+* Open the **package.jason file** that should have been created in your project file. Add:
   ```    
   "engines": {
         "node": "4.2.4"
