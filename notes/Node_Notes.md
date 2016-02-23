@@ -1,4 +1,6 @@
-# Some response anatomy
+#Notes on Node
+
+## Some response anatomy
 
 * Let's create a server: 
     ```var server = http.createServer(function(request, response){};```
