@@ -1,0 +1,26 @@
+body {
+  background-image: url('noodlebar_bg.jpg');
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+li img {
+  width: 20%;
+  height: 20%;
+  margin: .5em 0;
+  border: solid 2px rgb(50, 58, 70);
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
