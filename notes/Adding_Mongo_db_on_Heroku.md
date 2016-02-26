@@ -12,15 +12,15 @@
 
 * Search for **"MongoLab"** and install it.
 
-* Go to **Settings** from your Apps page and scroll to the *config variables section*. 
+* Go to **Settings** from the add-ons page and scroll to the *config variables section*. 
 
-* Paste the mongolab env label into your app
+* Paste the mongolab env label into your add-ons
 
   * eg. where you might have had: ```mongoose.connect('mongodb://localhost/foobar');```
   * replace it with: ```mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/foobar');```
   * This will use the env property if one is defined or the local one when you are running it locally.
 
-* We also need to update the port info on the app file (*note if you followed the instructions on deploying Node to Heroku this should already be done*)
+* We also need to update the port info on the add-ons file (*note if you followed the instructions on deploying Node to Heroku this should already be done*)
 
   * ```var port = process.env.PORT || 3000``` 
   *  3000 is whatever you're running for the local port
