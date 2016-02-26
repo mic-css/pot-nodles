@@ -17,7 +17,7 @@
 * Paste the mongolab env label into your add-ons
 
   * eg. where you might have had: ```mongoose.connect('mongodb://localhost/foobar');```
-  * replace it with: ```mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/foobar');```
+  * replace it with: ```mongoose.connect( (process.env.MONGOLAB_URI || config.mongoURI[app.settings.env]) ), function(err, res);```
   * This will use the env property if one is defined or the local one when you are running it locally.
 
 * We also need to update the port info on the add-ons file (*note if you followed the instructions on deploying Node to Heroku this should already be done*)
