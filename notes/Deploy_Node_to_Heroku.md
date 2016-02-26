@@ -49,7 +49,7 @@ You can deploy though git, just as we did with our Ruby apps.
 * Git add, commit and push your changes, check you are logged into Heroku (note: you can look at extra Heroku commands once logged in by typing: heroku help)
 
 * To add your app you first need to create it, type:
-  ```$heroku apps: create <appname(needs to be unique)>```
+  ```$heroku create <appname(needs to be unique)>```
 
 * Test that the app is running locally by typing:
   ```$heroku local```
