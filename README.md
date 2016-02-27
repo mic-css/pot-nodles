@@ -39,3 +39,6 @@ Standups at 09:30 and 14:30 as usual
 ### API resources
 * [Pluralsight Node API tut](https://www.pluralsight.com/courses/play-by-play-node-web-api-john-papa-sam-artioli)
 * [Mashape 40 API tuts](http://blog.mashape.com/list-of-40-tutorials-on-how-to-create-an-api/)
+
+### Deploying to Heroku
+* [Deploying a MEAN stack app to Heroku](http://www.tilcode.com/deploying-a-mean-stack-app-to-heroku/)
